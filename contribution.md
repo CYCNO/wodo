@@ -41,6 +41,14 @@ and when user switch to other branch it just set the current_branch to the branc
 
 Now let's talk about coding part
 
+First install and run wodo:
+```
+git clone https://github.com/ERRORLY/wodo # Or download the code
+cd wodo
+cargo run help
+```
+this should act as `wodo help` and so for other args.
+
 For now we are using `serde_json`, `serde`, `dirs` as dependencies for manipulating the json and files, you can see in `Cargo.toml` if we added more in future
 
 There is currently 3 files in src and that are:
