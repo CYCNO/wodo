@@ -1,8 +1,10 @@
-<div style="display:flex; align-items: center; justify-content: center; gap: 30px;">
-    <img src="/images/wodo-logo.png" alt="Wodo Logo"/>
-    <strong><i>minimath is a lightweight, pure-Python library for performing basic mathematical operations and utilities. It provides essential functions ranging from basic arithmetic to algebra and geometry, all implemented without any external libraries like math or numpy
+<div align="center">
+  <img src="/images/wodo-logo.png" alt="Wodo Logo"/>
+  <strong><i>A CLI Todo Manager With Branches
 </i></strong>
+  <br>
 </div>
+<hr/>
 
 A Simple yet Powerful Tool to manage your todos and organise it for different use cases through branches, Built in rust for fast performance
 
