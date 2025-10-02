@@ -1,12 +1,5 @@
----
-title: "Wodo"
-date: "2025-10-02"
-description: "A Modern todo manger built in cli"
-weight: 4
-author: "CYCNO"
----
 <div style="display:flex; align-items: center; justify-content: center; gap: 30px;">
-    <img src="/wodo-logo.png" alt="Wodo Logo"/>
+    <img src="/images/wodo-logo.png" alt="Wodo Logo"/>
 </div>
 
 A Simple yet Powerful Tool to manage your todos and organise it for different use cases through branches, Built in rust for fast performance
