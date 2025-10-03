@@ -1,7 +1,6 @@
 // =============================================
 // Author: CYCNO
 // For more info about code see contribution.md
-// Team Errorly
 // =============================================
 
 use std::env::args;
