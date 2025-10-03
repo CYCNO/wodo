@@ -42,6 +42,8 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
 
 ## ✨ Installation
 
+> **Checkout [release](https://github.com/CYCNO/wodo/releases/latest), for more info on which zip to download according to your os and architecture.**
+
 ### For Windows
 1. Download the [Windows zip](https://github.com/CYCNO/wodo/releases/latest/download/wodo-windows.zip) and extract it.
 2. Open **Command Prompt** or **PowerShell** in the same folder where you downloaded the file.
@@ -84,9 +86,7 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
    wodo help
    ```
 
-> Checkout [release](https://github.com/CYCNO/wodo/releases/latest), for more info on which zip to download according to your os and architecture.
-
-### From Source Code**
+### From Source Code
   - make sure to **[install rust](https://rust-lang.org/tools/install/) first** and than
   ```
   git clone https://github.com/ERRORLY/wodo # Or download the code
