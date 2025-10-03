@@ -39,37 +39,52 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
 - **Branch Based system** to organise todos
 - **OpenSource**
 
-## ✨ Installation
-- **For Windows**
-  ```
-  $dir = "$env:USERPROFILE\.wodo"
-  mkdir $dir -Force | Out-Null
-  Invoke-WebRequest -Uri "https://github.com/ERRORLY/wodo/releases/latest/download/wodo-windows.zip" -OutFile "$dir\wodo.zip"
-  Expand-Archive "$dir\wodo.zip" -DestinationPath $dir -Force
-  del "$dir\wodo.zip"
-  setx PATH "$env:Path;$dir"
-  ```
-- **For MacOS**
-  - This will work in most MacOS version.
-  ```
-  curl -L -o wodo.zip "https://github.com/ERRORLY/wodo/releases/latest/download/wodo-x86_64-apple-darwin.zip" && \
-  unzip wodo.zip && \
-  chmod +x wodo && \
-  sudo mv wodo /usr/local/bin/ && \
-  rm wodo.zip
-  ```
-  - If it doesn't work for your MacOS architecture you can download [other MacOS version](https://github.com/ERRORLY/wodo/releases/latest).
-- **For Linux**
-  ```
-  curl -L -o wodo.zip "https://github.com/ERRORLY/wodo/releases/latest/download/wodo-x86_64-unknown-linux-gnu.zip" && \
-  unzip wodo.zip && \
-  chmod +x wodo && \
-  sudo mv wodo /usr/local/bin/ && \
-  rm wodo.zip
-  ```
-  - If your linux is musl architecture based than [download](https://github.com/ERRORLY/wodo/releases/latest) that one.
 
-- **From Source Code**
+## ✨ Installation
+
+### For Windows
+1. Download the [wodo.exe](https://github.com/CYCNO/wodo/releases/latest/download/wodo.exe).
+2. Open **Command Prompt** or **PowerShell** in the same folder where you downloaded the file.
+3. Run:
+   ```powershell
+   mkdir C:\Users\<YourName>\.wodo
+   move wodo.exe C:\Users\<YourName>\.wodo\
+   ```
+4. Add the path to your `PATH` environment variable if not already included, then test with:
+
+   ```powershell
+   wodo help
+   ```
+
+### For Linux
+
+1. Download the [wodo binary](https://github.com/CYCNO/wodo/releases/latest/download/wodo).
+2. Open terminal in the download folder and run:
+   ```bash
+   chmod +x wodo
+   sudo mv wodo /usr/local/bin/
+   ```
+3. Test the installation:
+   ```bash
+   wodo help
+   ```
+
+### For macOS
+
+1. Download the [wodo binary](https://github.com/CYCNO/wodo/releases/latest/download/wodo).
+2. Open terminal in the download folder and run:
+
+   ```bash
+   chmod +x wodo
+   sudo mv wodo /usr/local/bin/
+   ```
+3. Test the installation:
+
+   ```bash
+   wodo help
+   ```
+
+### From Source Code**
   - make sure to **[install rust](https://rust-lang.org/tools/install/) first** and than
   ```
   git clone https://github.com/ERRORLY/wodo # Or download the code
