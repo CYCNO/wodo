@@ -43,7 +43,7 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
 ## ✨ Installation
 
 ### For Windows
-1. Download the [wodo.exe](https://github.com/CYCNO/wodo/releases/latest/download/wodo.exe).
+1. Download the [Windows zip](https://github.com/CYCNO/wodo/releases/latest/download/wodo-windows.zip) and extract it.
 2. Open **Command Prompt** or **PowerShell** in the same folder where you downloaded the file.
 3. Run:
    ```powershell
@@ -58,7 +58,7 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
 
 ### For Linux
 
-1. Download the [wodo binary](https://github.com/CYCNO/wodo/releases/latest/download/wodo).
+1. Download the [Linux zip](https://github.com/CYCNO/wodo/releases/latest/download/wodo-x86_64-unknown-linux-gnu.zip) and extract it.
 2. Open terminal in the download folder and run:
    ```bash
    chmod +x wodo
@@ -71,7 +71,7 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
 
 ### For macOS
 
-1. Download the [wodo binary](https://github.com/CYCNO/wodo/releases/latest/download/wodo).
+1. Download the [macOS zip](https://github.com/CYCNO/wodo/releases/latest/download/wodo-x86_64-apple-darwin.zip) and extract it.
 2. Open terminal in the download folder and run:
 
    ```bash
@@ -84,6 +84,8 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
    wodo help
    ```
 
+> Checkout [release](https://github.com/CYCNO/wodo/releases/latest), for more info on which zip to download according to your os and architecture.
+
 ### From Source Code**
   - make sure to **[install rust](https://rust-lang.org/tools/install/) first** and than
   ```
@@ -94,4 +96,4 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
   and then you will find wodo executables (as per your OS) in **target/release/**
 
 ## ✨ Contribution or Support
-If you want to **Contribute** or understand how it wodo works, see our [countribution.md](https://github.com/ERRORLY/wodo/blob/main/contribution.md) Or if you want to add **features or report bugs**, create a new [issue](https://github.com/ERRORLY/wodo/issues) in our github repo, or [contact us](/community)
+If you want to **Contribute** or understand how it wodo works, see the [countribution.md](https://github.com/CYCNO/wodo/blob/main/contribution.md) Or if you want to add **features or report bugs**, create a new [issue](https://github.com/CYCNO/wodo/issues) or a [pull](https://github.com/CYCNO/wodo/pulls) request.
