@@ -52,11 +52,12 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
    mkdir C:\Users\<YourName>\.wodo
    move wodo.exe C:\Users\<YourName>\.wodo\
    ```
-4. Add the path to your `PATH` environment variable if not already included, then test with:
+4. Now test with:
 
    ```powershell
    wodo help
    ```
+> Add the path to your PATH environment variable if not already included
 
 ### For Linux
 
