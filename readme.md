@@ -42,7 +42,7 @@ Instead of creating `todo.txt` in your project folder, just run `wodo branch add
 
 ## ✨ Future Todos 
 - [ ] Ask About branch configuration when creating new one like, how big each todo size should be and color of the terminal and more
-- [ ] Able to change `settings.json` and configure colors of terminal
+- [ ] Able to change `settings.json` and configure colors, check box style and themes of table
 - [ ] Able to edit todos and rename branches
 
 ## ✨ Installation
