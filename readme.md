@@ -89,7 +89,7 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
 ### From Source Code
   - make sure to **[install rust](https://rust-lang.org/tools/install/) first** and than
   ```
-  git clone https://github.com/ERRORLY/wodo # Or download the code
+  git clone https://github.com/CYCNO/wodo # Or download the code
   cd wodo
   cargo build --release
   ```

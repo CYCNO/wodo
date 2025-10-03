@@ -43,7 +43,7 @@ Now let's talk about coding part
 
 First install and run wodo:
 ```
-git clone https://github.com/ERRORLY/wodo # Or download the code
+git clone https://github.com/CYCNO/wodo # Or download the code
 cd wodo
 cargo run help
 ```
