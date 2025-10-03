@@ -6,7 +6,6 @@
 </div>
 <hr/>
 
-Instead of creating `todo.txt` in your project folder just `wodo branch add ProjectName`. 
 A Simple yet Powerful Tool to manage your todos and organise it for different use cases through branches, Built in rust for fast performance
 
 ```
@@ -34,6 +33,7 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
       ------------------------------------------------------
 
 ```
+Instead of creating `todo.txt` in your project folder just `wodo branch add ProjectName` :)
 
 ## ✨ Features
 - **Fast** and lightweight, Build in rust.
