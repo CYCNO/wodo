@@ -33,7 +33,7 @@ A Simple yet Powerful Tool to manage your todos and organise it for different us
       ------------------------------------------------------
 
 ```
-Instead of creating `todo.txt` in your project folder just `wodo branch add ProjectName` :)
+Instead of creating `todo.txt` in your project folder, just run `wodo branch add ProjectName` :)
 
 ## ✨ Features
 - **Fast** and lightweight, Build in rust.
