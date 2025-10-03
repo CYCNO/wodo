@@ -40,6 +40,10 @@ Instead of creating `todo.txt` in your project folder, just run `wodo branch add
 - **Branch Based system** to organise todos
 - **OpenSource**
 
+## ✨ Future Todos 
+- [ ] Ask About branch configuration when creating new one like, how big each todo size should be and color of the terminal and more
+- [ ] Able to change `settings.json` and configure colors of terminal
+- [ ] Able to edit todos and rename branches
 
 ## ✨ Installation
 
@@ -96,11 +100,6 @@ Instead of creating `todo.txt` in your project folder, just run `wodo branch add
   cargo build --release
   ```
   and then you will find wodo executables (as per your OS) in **target/release/**
-
-## Future Todos 
-- [ ] Ask About branch configuration when creating new one like, how big each todo size should be and color of the terminal and more
-- [ ] Able to change `settings.json` and configure colors of terminal
-- [ ] Able to edit todos and rename branches
 
 ## ✨ Contribution or Support
 If you want to **Contribute** or understand how it wodo works, see the [countribution.md](https://github.com/CYCNO/wodo/blob/main/contribution.md) Or if you want to add **features or report bugs**, create a new [issue](https://github.com/CYCNO/wodo/issues) or a [pull](https://github.com/CYCNO/wodo/pulls) request.
